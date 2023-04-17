@@ -1,6 +1,10 @@
 # Decentralized Design of Fast Iterative Receivers for Massive MIMO with Spatial Non-Stationarities
 This is a research-oriented code package that is primarily intended to allow readers to replicate the results of the article mentioned below and also encourage and accelerate further research on this topic:
 
+V. Croisfelt, T. Abrão, A. Amiri, E. de Carvalho and P. Popovski, ["Decentralized Design of Fast Iterative Receivers for Massive MIMO with Spatial Non-Stationarities,"](https://ieeexplore.ieee.org/document/9723315) 2021 55th Asilomar Conference on Signals, Systems, and Computers, Pacific Grove, CA, USA, 2021, pp. 1242-1249, doi: 10.1109/IEEECONF53345.2021.9723315.
+
+A pre-print is available on:
+
 Victor Croisfelt, Taufik Abrão, Abolfazl Amiri, Elisabeth de Carvalho, and Petar Popovski, “Decentralized Design of Fast Iterative Receivers for Massive MIMO with Spatial Non-Stationarities. Available on: https://arxiv.org/abs/2107.11349.
 
 I hope this content helps in your reaseach and contributes to building the precepts behind open science. Remarkably, in order to boost the idea of open science and further drive the evolution of science, I also motivate you to share your published results to the public.
@@ -12,12 +16,10 @@ Despite the extensive use of a centralized approach to design receivers for mass
 
 ## Content
 The codes provided here can be used to simulate Figs. 6 and 7. The code is divided in the following way:
+  - scripts starting with sim_ generate data on the /data folder that are used to plot the figures.
   - scripts starting with the keyword "plot_" actually plots the figures using matplotlib.
- 
-<!--
-  - scripts starting with the keyword "data_" are used to generate data for curves that require a lot of processing. The data is saved in the /data folder and used by the respective "plot_" scripts.
-  - scripts starting with the keyword "lookup_" are used to exhaustively find parameters, such as: number of nearby APs, Ccal_size, number of pilot-serving APs, Lmax, and effective DL transmit power for Estimator 3, delta. Considering the practical scenario, it also makes use of method proposed in Algorithm 1. 
--->
+
+The scripts comm.py, commsetup.py, receiver.py act as sources defining the main functions used in the simulation scripts.
 
 Further details about each file can be found inside them.
 
