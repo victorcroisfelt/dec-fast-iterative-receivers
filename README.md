@@ -7,7 +7,7 @@ A pre-print is available on:
 
 Victor Croisfelt, Taufik Abrão, Abolfazl Amiri, Elisabeth de Carvalho, and Petar Popovski, “Decentralized Design of Fast Iterative Receivers for Massive MIMO with Spatial Non-Stationarities. Available on: https://arxiv.org/abs/2107.11349.
 
-I hope this content helps in your reaseach and contributes to building the precepts behind open science. Remarkably, in order to boost the idea of open science and further drive the evolution of science, I also motivate you to share your published results to the public.
+I hope this content helps in your research and contributes to building the precepts behind open science. Remarkably, in order to boost the idea of open science and further drive the evolution of science, I also motivate you to share your published results to the public.
 
 If you have any questions and if you have encountered any inconsistency, please do not hesitate to contact me via victorcroisfelt@gmail.com.
 
